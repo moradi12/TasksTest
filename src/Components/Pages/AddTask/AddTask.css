@@ -1,0 +1,42 @@
+.AddTask {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .AddTask form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .AddTask h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .AddTask input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .AddTask input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .AddTask input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .AddTask p {
+    margin-top: 10px;
+  }
+  

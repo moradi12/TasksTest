@@ -1,0 +1,49 @@
+.EditTask {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.EditTask form {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditTask h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.EditTask input[type="text"],
+.EditTask textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.EditTask textarea {
+  resize: vertical;
+}
+
+.EditTask input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.EditTask input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.EditTask p {
+  margin-top: 10px;
+}
